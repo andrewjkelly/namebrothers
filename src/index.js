@@ -38,11 +38,9 @@ app.post('/listen', function (req, res) {
 
 	// get message and sender from body
 
-var test = jasper
 	var message = var test;
 	var payload = req.body['payload'];
 
-Function(jasper){
 	if payload=("affiliate"):
 	  var test=("Welcome, Affiliates. If you are a current affiliate text:(Login). If you are looking to become an affiliate text:(sign up).")
 
@@ -113,7 +111,6 @@ Function(jasper){
 
 		if payload=("client"):
 			 var test=
-	}
 
 	//-----------------------------------------
 
