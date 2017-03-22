@@ -38,79 +38,91 @@ app.post('/listen', function (req, res) {
 
 	// get message and sender from body
 
-	var message = var test;
+
 	var payload = req.body['payload'];
+	var message=();
 
-	if payload=("affiliate"):
-	  var test=("Welcome, Affiliates. If you are a current affiliate text:(Login). If you are looking to become an affiliate text:(sign up).")
+	else if (payload =="affiliate") {
+	  var message=("Welcome, Affiliates. If you are a current affiliate text:(Login). If you are looking to become an affiliate text:(sign up).");
+	}
 
-	 if payload=("Login"):
-	 var test=("Enter your personal affiliate ID to login")
+	 else if (payload=="Login") {
+	 var message=("Enter your personal affiliate ID to login");
+ }
 
 
-	 if payload=("Sign up"):
-	 var test=("Fill out the following application https://goo.gl/forms/Iuzr6Y570jop16w23")
+	 else if (payload=="Sign up"){
+	 var message=("Fill out the following application https://goo.gl/forms/Iuzr6Y570jop16w23");
+ }
 
-	 if payload=(3123>4123):
-	 var test=("please call us for assistance.")
+	 else if (payload==3123>4123){
+	 var message=("please call us for assistance.");
+ }
 
 	//Client
 	//-----------------------------------------
 
-	if payload=("client"):
-	  var test="Dear clients, Please text (Login) or if you aren't a member with us and are looking to be then text (sign up)."
+	else if (payload=="client"){
+	  var message="Dear clients, Please text (Login) or if you aren't a member with us and are looking to be then text (sign up).");
+	}
 
-	  if payload=("Login"):
-	   var test=("Enter your business ID")
+	  else if (payload=="Login"){
+	   var message=("Enter your business ID");
+	 }
 
-		if payload=("Sign up"):
-		 var test=("Fill out the following form https://goo.gl/forms/PviaENFjMDzXfsRl2")
+		else if (payload=="Sign up"){
+		 var message=("Fill out the following form https://goo.gl/forms/PviaENFjMDzXfsRl2");
+	 }
 
 	//Customer
 	//-----------------------------------------
 
-	if payload=("customer"):
-		var test=("Dear, customer. For customer service text (CS). You may also call us at this number for personal assistance.")
+	else if (payload=="customer"){
+		var message=("Dear, customer. For customer service text (CS). You may also call us at this number for personal assistance.");
+	}
 
-	if payload=("CS"):
-	  var test=("Hello, I'm Tom. How may I be of service?")
+	else if (payload=="CS"){
+	  var message=("Hello, I'm Tom. How may I be of service?");
+	}
 
 
 	//--------------CUSTOM-----------------
 
-	if payload=("owner"):
-		  var test=("Hello Boss, Enter today's passcode.")
+	else if (payload=="owner"){
+		  var message=("Hello Boss, Enter today's passcode.");
+		}
 
-		  if payload=("1599"):
-		   var test=("Hello, Mr. Kelly. Choose your Function (Funds(F), Clients(C), Team(T), affiliates(A), employees(E)) ")
+		  else if (payload=="1599"){
+		   var message=("Hello, Mr. Kelly. Choose your Function (Funds(F), Clients(C), Team(T), affiliates(A), employees(E)) ");
+		 }
 
-			if payload=("F"):
-			 var test=("$15,091 BOP")
+			else if (payload=="F"){
+			 var message=("$15,091 BOP");
+		 }
 
-			 if payload=("C"):
-	 		 var test=("5 client(s)")
+			 else if (payload=="C"){
+	 		 var message=("5 client(s)");
+		 }
 
-			 if payload=("A"):
-	 		 var test=("341 registered affiliate(s)")
+			 else if (payload=="A"){
+	 		 var message=("341 registered affiliate(s)");
+		 }
 
-			 if payload=("T"):
-	 		 var test=("9 member(s)")
+			 else if (payload=="T"){
+	 		 var message=("9 member(s)");
+		 }
 
-			 if payload=("E"):
-	 		 var test=("2 employee(s)")
+			 else if (payload=="E"){
+	 		 var message=("2 employee(s)");
+		 }
 
 
 
 	//-----------------------------------------
 
-	if payload=("employee"):
-		var test=
-
-		if payload=("owner"):
-			 var test=
-
-		if payload=("client"):
-			 var test=
+	else if (payload=="employee"){
+		var message=("NA");
+	}
 
 	//-----------------------------------------
 
