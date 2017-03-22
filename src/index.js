@@ -40,87 +40,67 @@ app.post('/listen', function (req, res) {
 
 
 	var payload = req.body['payload'];
-	var message=("Welcome to Metrix Marketing, Please state who you are: (Affiliate, Customer, Client)");
 
-	if (payload =="affiliate") {
+
+if (payload ="affiliate") {
 	  var message=("Welcome, Affiliates. If you are a current affiliate text:(Login). If you are looking to become an affiliate text:(sign up).");
 	}
 
-	  if (payload=="Login") {
+if (payload="Login") {
 	 var message=("Enter your personal affiliate ID to login");
  }
 
 
-	  if (payload=="Sign up"){
+if (payload="Sign up"){
 	 var message=("Fill out the following application https://goo.gl/forms/Iuzr6Y570jop16w23");
  }
 
-	  if (payload==3123>4123){
+if (payload=3123>4123){
 	 var message=("please call us for assistance.");
  }
 
 	//Client
 	//-----------------------------------------
 
-	 if (payload=="client"){
+if (payload="client"){
 	  var message="Dear clients, Please text (Login) or if you aren't a member with us and are looking to be then text (sign up).");
 	}
 
-	   if (payload=="Login"){
+if (payload="Login"){
 	   var message=("Enter your business ID");
 	 }
-
-		 if (payload=="Sign up"){
+if (payload="Sign up"){
 		 var message=("Fill out the following form https://goo.gl/forms/PviaENFjMDzXfsRl2");
 	 }
 
-	//Customer
-	//-----------------------------------------
-
-	 if (payload=="customer"){
+if (payload="customer"){
 		var message=("Dear, customer. For customer service text (CS). You may also call us at this number for personal assistance.");
 	}
-
-	 if (payload=="CS"){
+if (payload="CS"){
 	  var message=("Hello, I'm Tom. How may I be of service?");
 	}
-
-
-	//--------------CUSTOM-----------------
-
-	 if (payload=="owner"){
+if (payload="owner"){
 		  var message=("Hello Boss, Enter today's passcode.");
 		}
-
-		   if (payload=="1599"){
+if (payload="1599"){
 		   var message=("Hello, Mr. Kelly. Choose your Function (Funds(F), Clients(C), Team(T), affiliates(A), employees(E)) ");
 		 }
-
-			 if (payload=="F"){
+if (payload="F"){
 			 var message=("$15,091 BOP");
 		 }
-
-			  if (payload=="C"){
+if (payload="C"){
 	 		 var message=("5 client(s)");
 		 }
-
-			  if (payload=="A"){
+if (payload="A"){
 	 		 var message=("341 registered affiliate(s)");
 		 }
-
-			  if (payload=="T"){
+if (payload="T"){
 	 		 var message=("9 member(s)");
 		 }
-
-			  if (payload=="E"){
+if (payload="E"){
 	 		 var message=("2 employee(s)");
 		 }
-
-
-
-	//-----------------------------------------
-
-	 if (payload=="employee"){
+if (payload="employee"){
 		var message=("NA");
 	}
 
