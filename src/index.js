@@ -41,69 +41,63 @@ app.post('/listen', function (req, res) {
 
 	var payload = req.body['payload'];
 
+var message=[
 
 if (payload ="affiliate") {
-	  var message=("Welcome, Affiliates. If you are a current affiliate text:(Login). If you are looking to become an affiliate text:(sign up).");
+	  ("Welcome, Affiliates. If you are a current affiliate text:(Login). If you are looking to become an affiliate text:(sign up).");
 	}
-
 if (payload="Login") {
-	 var message=("Enter your personal affiliate ID to login");
+	 ("Enter your personal affiliate ID to login");
  }
-
-
 if (payload="Sign up"){
-	 var message=("Fill out the following application https://goo.gl/forms/Iuzr6Y570jop16w23");
+	 ("Fill out the following application https://goo.gl/forms/Iuzr6Y570jop16w23");
  }
-
 if (payload=3123>4123){
-	 var message=("please call us for assistance.");
+	 ("please call us for assistance.");
  }
 
 	//Client
 	//-----------------------------------------
-
 if (payload="client"){
-	  var message="Dear clients, Please text (Login) or if you aren't a member with us and are looking to be then text (sign up).");
+	  "Dear clients, Please text (Login) or if you aren't a member with us and are looking to be then text (sign up).");
 	}
-
 if (payload="Login"){
-	   var message=("Enter your business ID");
+	   ("Enter your business ID");
 	 }
 if (payload="Sign up"){
-		 var message=("Fill out the following form https://goo.gl/forms/PviaENFjMDzXfsRl2");
+		 ("Fill out the following form https://goo.gl/forms/PviaENFjMDzXfsRl2");
 	 }
-
 if (payload="customer"){
-		var message=("Dear, customer. For customer service text (CS). You may also call us at this number for personal assistance.");
+		("Dear, customer. For customer service text (CS). You may also call us at this number for personal assistance.");
 	}
 if (payload="CS"){
-	  var message=("Hello, I'm Tom. How may I be of service?");
+	  ("Hello, I'm Tom. How may I be of service?");
 	}
 if (payload="owner"){
-		  var message=("Hello Boss, Enter today's passcode.");
+		  ("Hello Boss, Enter today's passcode.");
 		}
 if (payload="1599"){
-		   var message=("Hello, Mr. Kelly. Choose your Function (Funds(F), Clients(C), Team(T), affiliates(A), employees(E)) ");
+		   ("Hello, Mr. Kelly. Choose your Function (Funds(F), Clients(C), Team(T), affiliates(A), employees(E)) ");
 		 }
 if (payload="F"){
-			 var message=("$15,091 BOP");
+			 ("$15,091 BOP");
 		 }
 if (payload="C"){
-	 		 var message=("5 client(s)");
+	 		 ("5 client(s)");
 		 }
 if (payload="A"){
-	 		 var message=("341 registered affiliate(s)");
+	 		 ("341 registered affiliate(s)");
 		 }
 if (payload="T"){
-	 		 var message=("9 member(s)");
+	 		 ("9 member(s)");
 		 }
 if (payload="E"){
-	 		 var message=("2 employee(s)");
+	 		 ("2 employee(s)");
 		 }
-if (payload="employee"){
-		var message=("NA");
+ if (payload="employee"){
+		("NA");
 	}
-
+]
 	//-----------------------------------------
 
 	var sender = req.body['fromNumber'];
