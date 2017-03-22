@@ -40,79 +40,79 @@ app.post('/listen', function (req, res) {
 
 
 	var payload = req.body['payload'];
-	var message=();
+	var message=("Welcome to Metrix Marketing, Please state who you are: (Affiliate, Customer, Client)");
 
-	else if (payload =="affiliate") {
+	if (payload =="affiliate") {
 	  var message=("Welcome, Affiliates. If you are a current affiliate text:(Login). If you are looking to become an affiliate text:(sign up).");
 	}
 
-	 else if (payload=="Login") {
+	  if (payload=="Login") {
 	 var message=("Enter your personal affiliate ID to login");
  }
 
 
-	 else if (payload=="Sign up"){
+	  if (payload=="Sign up"){
 	 var message=("Fill out the following application https://goo.gl/forms/Iuzr6Y570jop16w23");
  }
 
-	 else if (payload==3123>4123){
+	  if (payload==3123>4123){
 	 var message=("please call us for assistance.");
  }
 
 	//Client
 	//-----------------------------------------
 
-	else if (payload=="client"){
+	 if (payload=="client"){
 	  var message="Dear clients, Please text (Login) or if you aren't a member with us and are looking to be then text (sign up).");
 	}
 
-	  else if (payload=="Login"){
+	   if (payload=="Login"){
 	   var message=("Enter your business ID");
 	 }
 
-		else if (payload=="Sign up"){
+		 if (payload=="Sign up"){
 		 var message=("Fill out the following form https://goo.gl/forms/PviaENFjMDzXfsRl2");
 	 }
 
 	//Customer
 	//-----------------------------------------
 
-	else if (payload=="customer"){
+	 if (payload=="customer"){
 		var message=("Dear, customer. For customer service text (CS). You may also call us at this number for personal assistance.");
 	}
 
-	else if (payload=="CS"){
+	 if (payload=="CS"){
 	  var message=("Hello, I'm Tom. How may I be of service?");
 	}
 
 
 	//--------------CUSTOM-----------------
 
-	else if (payload=="owner"){
+	 if (payload=="owner"){
 		  var message=("Hello Boss, Enter today's passcode.");
 		}
 
-		  else if (payload=="1599"){
+		   if (payload=="1599"){
 		   var message=("Hello, Mr. Kelly. Choose your Function (Funds(F), Clients(C), Team(T), affiliates(A), employees(E)) ");
 		 }
 
-			else if (payload=="F"){
+			 if (payload=="F"){
 			 var message=("$15,091 BOP");
 		 }
 
-			 else if (payload=="C"){
+			  if (payload=="C"){
 	 		 var message=("5 client(s)");
 		 }
 
-			 else if (payload=="A"){
+			  if (payload=="A"){
 	 		 var message=("341 registered affiliate(s)");
 		 }
 
-			 else if (payload=="T"){
+			  if (payload=="T"){
 	 		 var message=("9 member(s)");
 		 }
 
-			 else if (payload=="E"){
+			  if (payload=="E"){
 	 		 var message=("2 employee(s)");
 		 }
 
@@ -120,7 +120,7 @@ app.post('/listen', function (req, res) {
 
 	//-----------------------------------------
 
-	else if (payload=="employee"){
+	 if (payload=="employee"){
 		var message=("NA");
 	}
 
@@ -141,7 +141,7 @@ app.post('/listen', function (req, res) {
     }, function(error, response, body) {
     	if (error) {
     		console.log('Error sending message: ', error);
-    	} else if (response.body.error) {
+    	}  if (response.body.error) {
     		console.log('Error: ', response.body.error);
     	}
     });
