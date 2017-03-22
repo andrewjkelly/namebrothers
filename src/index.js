@@ -22,7 +22,7 @@ app.get('/test', function (req, res) {
 });
 
 app.post('/listen', function (req, res) {
-
+	
 	console.log("received payload from burner: ", req.body);
 
 	// get type from body
@@ -38,10 +38,7 @@ app.post('/listen', function (req, res) {
 
 	// get message and sender from body
 
-
-	var payload = req.body['payload'];
-	var message=("Welcome to Metrix Marketing, Please state who you are: (Affiliate, Customer, Client)");
-	//-----------------------------------------
+	var message = ("Welcome to Metrix Marketing, Please state who you are\(affiliate, client, customer\)");
 	var sender = req.body['fromNumber'];
 
 	console.log("echoing text back to sender: " + sender + " with message: " + message);
@@ -57,7 +54,7 @@ app.post('/listen', function (req, res) {
     }, function(error, response, body) {
     	if (error) {
     		console.log('Error sending message: ', error);
-    	}  if (response.body.error) {
+    	} else if (response.body.error) {
     		console.log('Error: ', response.body.error);
     	}
     });
