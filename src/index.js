@@ -40,66 +40,8 @@ app.post('/listen', function (req, res) {
 
 
 	var payload = req.body['payload'];
-
-var message=[
-
-if (payload ="affiliate") {
-	  ("Welcome, Affiliates. If you are a current affiliate text:(Login). If you are looking to become an affiliate text:(sign up).");
-	}
-if (payload="Login") {
-	 ("Enter your personal affiliate ID to login");
- }
-if (payload="Sign up"){
-	 ("Fill out the following application https://goo.gl/forms/Iuzr6Y570jop16w23");
- }
-if (payload=3123>4123){
-	 ("please call us for assistance.");
- }
-
-	//Client
+	var message=("Welcome to Metrix Marketing, Please state who you are: (Affiliate, Customer, Client)");
 	//-----------------------------------------
-if (payload="client"){
-	  "Dear clients, Please text (Login) or if you aren't a member with us and are looking to be then text (sign up).");
-	}
-if (payload="Login"){
-	   ("Enter your business ID");
-	 }
-if (payload="Sign up"){
-		 ("Fill out the following form https://goo.gl/forms/PviaENFjMDzXfsRl2");
-	 }
-if (payload="customer"){
-		("Dear, customer. For customer service text (CS). You may also call us at this number for personal assistance.");
-	}
-if (payload="CS"){
-	  ("Hello, I'm Tom. How may I be of service?");
-	}
-if (payload="owner"){
-		  ("Hello Boss, Enter today's passcode.");
-		}
-if (payload="1599"){
-		   ("Hello, Mr. Kelly. Choose your Function (Funds(F), Clients(C), Team(T), affiliates(A), employees(E)) ");
-		 }
-if (payload="F"){
-			 ("$15,091 BOP");
-		 }
-if (payload="C"){
-	 		 ("5 client(s)");
-		 }
-if (payload="A"){
-	 		 ("341 registered affiliate(s)");
-		 }
-if (payload="T"){
-	 		 ("9 member(s)");
-		 }
-if (payload="E"){
-	 		 ("2 employee(s)");
-		 }
- if (payload="employee"){
-		("NA");
-	}
-]
-	//-----------------------------------------
-
 	var sender = req.body['fromNumber'];
 
 	console.log("echoing text back to sender: " + sender + " with message: " + message);
