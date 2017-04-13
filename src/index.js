@@ -13,7 +13,7 @@ var incomingWebhookURL = process.env.incomingwebhookurl;
 
 // Express setup
 
-app.set('port', (process.env.PORT || 37241));
+app.set('port', (process.env.PORT || 5000));
 app.use(bodyParser.json());
 
 app.get('/test', function (req, res) {
