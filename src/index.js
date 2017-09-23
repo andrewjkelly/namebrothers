@@ -67,7 +67,7 @@ app.post('/listen', function (req, res) {
     var m2 = "this is a helpful message";
     var a2 =="HELP";
 
-        var m3= "";
+        var m3= "This is a test";
         var a3="";
 
             var m4="";
@@ -138,7 +138,7 @@ app.post('/listen', function (req, res) {
         message=(m1);
     } else if (payload ==(a2)){
         message=(m2);
-    } else if(payload = (a3)){
+    } else if(payload = "TEST"){
 		message=(m3);
 	} else if(payload =(a4)){
 		message=(m4);
