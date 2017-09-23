@@ -65,7 +65,7 @@ app.post('/listen', function (req, res) {
 
 //HOSTING
     var m2 = "this is a helpful message";
-    var a2 ="HELP";
+    var a2 =="HELP";
 
         var m3= "";
         var a3="";
@@ -136,7 +136,7 @@ app.post('/listen', function (req, res) {
     
     if(payload = (a1)){
         message=(m1);
-    } else if (payload =(a2)){
+    } else if (payload ==(a2)){
         message=(m2);
     } else if(payload = (a3)){
 		message=(m3);
