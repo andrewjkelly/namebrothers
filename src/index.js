@@ -54,7 +54,7 @@ app.post('/listen', function (req, res) {
     var m2 = "this is a helpful message";
     var a2 ="HELP";
 
-    var m3= "";
+    var m3= "Damint";
     var a3="";
 
     var m4="";
@@ -118,10 +118,8 @@ app.post('/listen', function (req, res) {
 
     // response
 
-    var payload= req.body['payload'];
-    
-        if(payload = (a1)){
-        message=(m1);
+    var payload= req.body['payload']; if(payload = (a1)){
+        message=(m2);
     } else if (payload = (a2)){
         message=(m2);
     } else if(payload = (a3)){
@@ -320,8 +318,8 @@ app.post('/listen', function (req, res) {
 		message=(m99);
     } else if(payload =(a100)){
 		message=(m100);
-    } else {
-		message=(m1);
+    } else{
+		message=(m3);
 	}
     
 
