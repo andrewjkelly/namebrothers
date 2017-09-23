@@ -138,7 +138,7 @@ app.post('/listen', function (req, res) {
         message=(m1);
     } else if (payload ==(a2)){
         message=(m2);
-    } else if(payload == "TESTER"){
+    } else if(payload == "TEST"){
 		message=(m3);
 	} else if(payload =(a4)){
 		message=(m4);
