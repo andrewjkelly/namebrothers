@@ -39,308 +39,308 @@ app.post('/listen', function (req, res) {
 	// get message and sender from body
 	var message= null;
 
-	// list of responses
+    // list of responses
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // PRIMARY ELSE IF messasge
 
-	var m1 = "You have successfully reached Metrix Marketing, please state who you are \( affiliate, client, customer\)";
+    var m1 = "Welcome, to NameBrothers: \"Best 2018 Webhosting\"";
+    var a1 = "Hey";
 
 	//-----------------------
 
-//AFFILIATE
-	var m2 = "Welcome affiliate, Please enter your personal passcode | If you are looking to become an Affiliate text: AJ";
+//HOSTING
+    var m2 = "this is a helpful message";
+    var a2 ="HELP";
 
-		var m3= "Looking to join? Text one of the following commands: AD= Task description, AJL= Legal info, APC= Plan comparison, AA= application";
-			var m4="Plan comparison: https://drive.google.com/open?id=138rXd4BTwIccRLHSws3KOITiKlB2ShmzxnVDZdWch6A";
-			var m5 = "Application: https://goo.gl/forms/wyJmJmKQV5LrJsAn1";
-			var m6= "LEGAL: https://drive.google.com/open?id=0B0POZWEZ9wCaZVRkMlF6bUVVWGM";
-			var m7= "Metrix marketing, is an affiliate network that connects independent contractors \(affiliates\) with clients looking to sell products, memberships, programs, etc. Earning the independent contractors a commision on all sales.";
-			var m8 = "";
-			var m9= "";
-			var m10= "";
-			var m11= "";
-			var m12 = "";
-			var m13= " " ;
+        var m3= "";
+        var a3="";
 
-		var m14= "Access granted | here is a list of commands: AGD= Google drive, PP=paypal, METRIX= our website, APL= product list with links";
-			var m15 = "Basic google drive info: https://drive.google.com/open?id=0B0POZWEZ9wCaRXQ2djJRSm9Bc1E";
-			var m16= "here is the link www.paypal.com ";
-			var m17= "our website: https://andrewjkellyservic.wixsite.com/metrix";
-			var m18= "elite member";
-			var m19 = "partners";
-			var m20= "elite partnership";
+            var m4="";
+            var a4="";
 
-			var m21= "Products";
-				var m22 = "MCA | https://motorclubofamerica.com/MetrixMarketing";
-				var m23= "TVC | https://prodriver.com/MetrixMarketing";
-				var m24= " ";
-				var m25= " ";
-				var m26 = " ";
-				var m27= " ";
-				var m28= " ";
-				var m29 = " ";
-				var m30= " ";
+            var m5="";
+            var a5="";
+
+            var m6="";
+            var a6="";
+
+            var m7="";
+						var a7="";
+						
+						var m8="";
+						var a8="";
+
+						var m9="";
+						var a9="";
+
+						var m10="";
+						var a10="";
+
+						var m11="";
+						var a11="";
+
+						var m12="";
+						var a12="";
+
+						var m13="";
+						var a13="";
+
+
+            
 
 //--------------------------
 
 // CLIENT
-	var m31= "Welcome clients, Please enter your company's passcode | If you are looking to sell your product with us, text: CJ";
+    var m31= "";
+    var a31="";
 
-		var m32= "Looking to become a client? Great, Here are a few commands you can use: AI= info on affiliate base, CAP= CLient application, CLA= CLient legal agreement, CMI= Google drive of extra info";
-			var m33 = "Application: https://goo.gl/forms/4gBte7tHK8Azjfdj2";
-			var m34= "Legal information: https://drive.google.com/drive/folders/0B0POZWEZ9wCaSEcyVGd5ZEp5eUk?usp=sharing";
-			var m35= "Currently there are 25 affiliates signed up, actively making sales";
-			var m36 = "Currently there are no additional agreements";
-			var m38= "GOOGLE drive: https://drive.google.com/drive/folders/0B0POZWEZ9wCaRy1qM3RyXy0za28?usp=sharing";
-			var m39= " ";
-			var m40 = " ";
-
-		var m41= "4983";
-			var m42= "Client google drive: https://drive.google.com/drive/folders/0B0POZWEZ9wCaNWM0SWZ1Wm0zZFU?usp=sharing";
-			var m43 = "Client paypal: www.paypal.com";
-			var m44= "our website: https://andrewjkellyservic.wixsite.com/metrix";
-			var m45= " ";
-			var m46=" ";
-			var m47= " ";
-			var m48= " ";
-			var m49 = " ";
-			var m50= " ";
-			var m51= " ";
-			var m52= " ";
-			var m53 = " ";
-			var m54= " ";
-			var m55= " ";
-			var m56= " ";
-			var m57 = " ";
-			var m58= " ";
-			var m59= " ";
-			var m60= " ";
+        var m32= "";
+        var a32="";
+			
 
 //--------------------------
 
 	// CUSTOMER
-	var m61="Welcome customer, TEXT: CS for customer service or TEXT: CMMD for a list of commands.";
-		var m62="Here is a list of textable commands: E= email, AB= about us, AJ= affiliate join, PC= Plan Comparison, CJ= Client join";
-			var m63="Email: metrixmarketingteam@gmail.com ";
-			var m64="Metrix Marketing, is an affiliate marketing service in which independent contractors aqquire products and membersips to sell to their local or online communities. We are truly for a better buying experience and would love to make you life better.";
-			var m65="Hello, I am Jarvis your personal AI assistant. How may I help you?";
-				var m66="";
-				var m67="";
-				var m68="";
-				var m69="";
-				var m70=" ";
-				var m71= " ";
-				var m72= " ";
-				var m73 = " ";
-				var m74= " ";
-				var m75= " ";
-				var m76= " ";
-				var m77 = " ";
-				var m78= " ";
-				var m79= " ";
-				var m80=" ";
-				var m81= " ";
-				var m82= " ";
-				var m83 = " ";
-				var m84= " ";
-				var m85= " ";
-				var m86= " ";
-				var m87 = " ";
-				var m88= " ";
-				var m89= " ";
-				var m90=" ";
+    var m61="";
+    var a61="";
+
+
+        var m62="";
+        var a62="";
+		
 
 //--------------------------
 
-//OWNER
-	var m91= "Welcome Mr. Kelly, Please enter your passcode.";
-		var m92= "Access granted | CMMDO for command list.";
-			var m93 = " Here it is: https://docs.google.com/spreadsheets/d/1MUUmFyNm8Jq6ALogPfBEZg8HBPONlP9ZzmrPVQPBDeo/edit#gid=0";
-			var m94= "Well hello there, Mr. Kelly";
-			var m95= "You seem to be quite full. sir,";
-			var m96= "Currently we have 32 affiliates signed up. 2 new today.";
-			var m97 = " ";
-			var m98= " ";
-			var m99= " ";
-			var m100=" ";
-			var m101= " ";
-			var m102= " ";
-			var m103 = " ";
-			var m104= " ";
-			var m105= " ";
-			var m106= " ";
-			var m107 = " ";
-			var m108= " ";
-			var m109= " ";
-			var m110=" ";
-			var m111= " ";
-			var m112= " ";
-			var m113 = " ";
-			var m114= " ";
-			var m115= " ";
-			var m116= " ";
-			var m117 = " ";
-			var m118= " ";
-			var m119= " ";
-			var m120=" ";
 
-//--------------------------
-
-	//EMPLOYEE
-	var m121= " ";
-		var m122= " ";
-		var m123 = " ";
-		var m124= " ";
-		var m125= " ";
-		var m126= " ";
-		var m127 = " ";
-		var m128= " ";
-		var m129= " ";
-		var m130=" ";
-		var m131= " ";
-		var m132= " ";
-		var m133 = " ";
-		var m134= " ";
-		var m135= " ";
-		var m136= " ";
-		var m137 = " ";
-		var m138= " ";
-		var m139= " ";
-		var m140=" ";
-		var m141= " ";
-		var m142= " ";
-		var m143 = " ";
-		var m144= " ";
-		var m145= " ";
-		var m146= " ";
-		var m147 = " ";
-		var m148= " ";
-		var m149= " ";
-
-//---------------------------
 
 
 
 	// response
 
-	var payload= req.body['payload']; if(payload == "affiliate"){
-		message=(m2);
-	} else if(payload == "AJ"){
+    var payload= req.body['payload'];
+    
+    if(payload = (a1)){
+        message=(m1);
+    } else if (payload =(a2)){
+        message=(m2);
+    } else if(payload = (a3)){
 		message=(m3);
-	} else if(payload == "APC"){
+	} else if(payload =(a4)){
 		message=(m4);
-	}  else if(payload == "AA"){
+	}  else if(payload =(a5)){
 		message=(m5);
-	} else if(payload == "AJL"){
+	} else if(payload =(a6)){
 		message=(m6);
-	} else if(payload == "AD"){
+	} else if(payload =(a7)){
 		message=(m7);
-	} else if(payload == "1434"){
+    } else if(payload =(a8)){
+		message=(m8);
+    } else if(payload =(a9)){
+		message=(m9);
+    } else if(payload =(a10)){
+		message=(m10);
+    } else if(payload =(a11)){
+		message=(m11);
+    } else if(payload =(a12)){
+		message=(m12);
+    } else if(payload =(a13)){
+		message=(m13);
+    } else if(payload =(a14)){
 		message=(m14);
-	} else if(payload == "AGD"){
+	} else if(payload =(a15)){
 		message=(m15);
-	} else if(payload == "PP"){
+	} else if(payload =(a16)){
 		message=(m16);
-	} else if(payload == "METRIX"){
+	} else if(payload =(a17)){
 		message=(m17);
-	} else if(payload == "APL"){
+    } else if(payload =(a18)){
+		message=(m18);
+    } else if(payload =(a19)){
+		message=(m19);
+    } else if(payload =(a20)){
+		message=(m20);
+    } else if(payload =(a21)){
 		message=(m21);
-	} else if(payload == "P MCA"){
+	} else if(payload =(a22)){
 		message=(m22);
-	} else if(payload == "P TVC"){
+	} else if(payload =(a23)){
 		message=(m23);
-	} else if(payload == "client"){
+    } else if(payload =(a24)){
+		message=(m24);
+    } else if(payload =(a25)){
+		message=(m25);
+    } else if(payload =(a26)){
+		message=(m26);
+    } else if(payload =(a27)){
+		message=(m27);
+    } else if(payload =(a28)){
+		message=(m28);
+    } else if(payload =(a29)){
+		message=(m29);
+    } else if(payload =(a30)){
+		message=(m30);
+    } else if(payload =(a31)){
 		message=(m31);
-	} else if(payload == "CJ"){
+	} else if(payload =(a32)){
 		message=(m32);
-	}else if(payload == "CAP"){
+	}else if(payload =(a33)){
 		message=(m33);
-	} else if(payload == "CLA"){
+	} else if(payload =(a34)){
 		message=(m34);
-	}  else if(payload == "AI"){
+	}  else if(payload =(a35)){
 		message=(m35);
-	} else if(payload == "CAA"){
+	} else if(payload =(a36)){
 		message=(m36);
-	} else if(payload == "CMI"){
+	} else if(payload =(a37)){
 		message=(m37);
-	} else if(payload == "4983"){
+    } else if(payload =(a38)){
+		message=(m38);
+    } else if(payload =(a39)){
+		message=(m39);
+    } else if(payload =(a40)){
+		message=(m40);
+    } else if(payload =(a41)){
 		message=(m41);
-	} else if(payload == "CGD"){
+	} else if(payload =(a42)){
 		message=(m42);
-	} else if(payload == "CPP"){
+	} else if(payload =(a43)){
 		message=(m43);
-	} else if(payload == "customer"){
+    } else if(payload =(a44)){
+		message=(m44);
+    } else if(payload =(a45)){
+		message=(m45);
+    } else if(payload =(a46)){
+		message=(m46);
+    } else if(payload =(a47)){
+		message=(m47);
+    } else if(payload =(a48)){
+		message=(m48);
+    } else if(payload =(a49)){
+		message=(m49);
+    } else if(payload =(a50)){
+		message=(m50);
+    } else if(payload =(a51)){
+		message=(m51);
+    } else if(payload =(a52)){
+		message=(m52);
+    } else if(payload =(a53)){
+		message=(m53);
+    } else if(payload =(a54)){
+		message=(m54);
+    } else if(payload =(a55)){
+		message=(m55);
+    } else if(payload =(a56)){
+		message=(m56);
+    } else if(payload =(a57)){
+		message=(m57);
+    } else if(payload =(a58)){
+		message=(m58);
+    } else if(payload =(a59)){
+		message=(m59);
+    } else if(payload =(a60)){
+		message=(m60);
+    } else if(payload =(a61)){
 		message=(m61);
-	} else if(payload == "CMMD"){
+	} else if(payload =(a62)){
 		message=(m62);
-	} else if(payload == "CS"){
+	} else if(payload =(a63)){
 		message=(m63);
-	} else if(payload == "E"){
+	} else if(payload =(a64)){
 		message=(m64);
-	} else if(payload == "AB"){
+	} else if(payload =(a65)){
 		message=(m65);
-	} else if(payload == "PC"){
+    } else if(payload =(a66)){
+		message=(m66);
+    } else if(payload =(a67)){
 		message=(m67);
-	}else if(payload == "owner"){
+    } else if(payload =(a68)){
+		message=(m68);
+    } else if(payload =(a69)){
+		message=(m69);
+    } else if(payload =(a70)){
+		message=(m70);
+    } else if(payload =(a71)){
+		message=(m71);
+    } else if(payload =(a72)){
+		message=(m72);
+    } else if(payload =(a73)){
+		message=(m73);
+    } else if(payload =(a74)){
+		message=(m74);
+    } else if(payload =(a75)){
+		message=(m75);
+    } else if(payload =(a76)){
+		message=(m76);
+    } else if(payload =(a77)){
+		message=(m77);
+    } else if(payload =(a78)){
+		message=(m78);
+    } else if(payload =(a79)){
+		message=(m79);
+    } else if(payload =(a80)){
+		message=(m80);
+    } else if(payload =(a81)){
+		message=(m81);
+    }else if(payload =(a82)){
+		message=(m82);
+    }else if(payload =(a83)){
+		message=(m83);
+    }else if(payload =(a84)){
+		message=(m84);
+    }else if(payload =(a85)){
+		message=(m85);
+    } else if(payload =(a86)){
+		message=(m86);
+    } else if(payload =(a87)){
+		message=(m87);
+    } else if(payload =(a88)){
+		message=(m88);
+    } else if(payload =(a89)){
+		message=(m89);
+    } else if(payload =(a90)){
+		message=(m90);
+    } else if(payload == (a91)){
 		message=(m91);
-	} else if(payload == "Owner"){
-		message=(m91);
-	}  else if(payload == "1951"){
+	} else if(payload =(a92)){
 		message=(m92);
-	} else if(payload == "CMMDO"){
+	} else if(payload =(a93)){
 		message=(m93);
-	} else if(payload == "Hey Jarvis"){
+	} else if(payload =(a94)){
 		message=(m94);
-	} else if(payload == "How does my schedule look?"){
+	} else if(payload =(a95)){
 		message=(m95);
-	} else if(payload == "How many affiliates are signed up?"){
+	} else if(payload =(a96)){
 		message=(m96);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	}else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	}  else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else if(payload == "A"){
-		message=(m1);
-	} else {
+    } else if(payload =(a97)){
+		message=(m97);
+    } else if(payload =(a98)){
+		message=(m98);
+    }else if(payload =(a99)){
+		message=(m99);
+    }else if(payload =(a100)){
+		message=(m100);
+    } else {
 		message=(m1);
 	}
+    
 
 	//done
+
 
 	var sender = req.body['fromNumber'];
 
