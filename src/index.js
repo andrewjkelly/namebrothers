@@ -43,19 +43,6 @@ app.post('/listen', function (req, res) {
     
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // PRIMARY ELSE IF messasge
 
     var m1 = "Welcome, to NameBrothers: \"Best 2018 Webhosting\"";
@@ -67,38 +54,38 @@ app.post('/listen', function (req, res) {
     var m2 = "this is a helpful message";
     var a2 ="HELP";
 
-        var m3= "";
-        var a3="";
+    var m3= "";
+    var a3="";
 
-            var m4="";
-            var a4="";
+    var m4="";
+    var a4="";
 
-            var m5="";
-            var a5="";
+    var m5="";
+    var a5="";
 
-            var m6="";
-            var a6="";
+    var m6="";
+    var a6="";
 
-            var m7="";
-						var a7="";
-						
-						var m8="";
-						var a8="";
+    var m7="";
+    var a7="";
+            
+    var m8="";
+    var a8="";
 
-						var m9="";
-						var a9="";
+    var m9="";
+    var a9="";
 
-						var m10="";
-						var a10="";
+    var m10="";
+    var a10="";
 
-						var m11="";
-						var a11="";
+    var m11="";
+    var a11="";
 
-						var m12="";
-						var a12="";
+    var m12="";
+    var a12="";
 
-						var m13="";
-						var a13="";
+    var m13="";
+    var a13="";
 
 
             
@@ -109,8 +96,8 @@ app.post('/listen', function (req, res) {
     var m31= "";
     var a31="";
 
-        var m32= "";
-        var a32="";
+    var m32= "";
+    var a32="";
 			
 
 //--------------------------
@@ -119,9 +106,8 @@ app.post('/listen', function (req, res) {
     var m61="";
     var a61="";
 
-
-        var m62="";
-        var a62="";
+    var m62="";
+    var a62="";
 		
 
 //--------------------------
@@ -130,19 +116,19 @@ app.post('/listen', function (req, res) {
 
 
 
-	// response
+    // response
 
     var payload= req.body['payload'];
     
-    if(payload = (a1)){
+        if(payload = (a1)){
         message=(m1);
-    } else if (payload == "Andrew"){
+    } else if (payload = (a2)){
         message=(m2);
     } else if(payload = (a3)){
 		message=(m3);
 	} else if(payload =(a4)){
 		message=(m4);
-	}  else if(payload =(a5)){
+	} else if(payload =(a5)){
 		message=(m5);
 	} else if(payload =(a6)){
 		message=(m6);
@@ -198,11 +184,11 @@ app.post('/listen', function (req, res) {
 		message=(m31);
 	} else if(payload =(a32)){
 		message=(m32);
-	}else if(payload =(a33)){
+	} else if(payload =(a33)){
 		message=(m33);
 	} else if(payload =(a34)){
 		message=(m34);
-	}  else if(payload =(a35)){
+	} else if(payload =(a35)){
 		message=(m35);
 	} else if(payload =(a36)){
 		message=(m36);
@@ -296,13 +282,13 @@ app.post('/listen', function (req, res) {
 		message=(m80);
     } else if(payload =(a81)){
 		message=(m81);
-    }else if(payload =(a82)){
+    } else if(payload =(a82)){
 		message=(m82);
-    }else if(payload =(a83)){
+    } else if(payload =(a83)){
 		message=(m83);
-    }else if(payload =(a84)){
+    } else if(payload =(a84)){
 		message=(m84);
-    }else if(payload =(a85)){
+    } else if(payload =(a85)){
 		message=(m85);
     } else if(payload =(a86)){
 		message=(m86);
@@ -330,9 +316,9 @@ app.post('/listen', function (req, res) {
 		message=(m97);
     } else if(payload =(a98)){
 		message=(m98);
-    }else if(payload =(a99)){
+    } else if(payload =(a99)){
 		message=(m99);
-    }else if(payload =(a100)){
+    } else if(payload =(a100)){
 		message=(m100);
     } else {
 		message=(m1);
