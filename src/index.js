@@ -336,7 +336,7 @@ app.post('/listen', function (req, res) {
 		message=(m100);
     } else{
 	    message == ("Welcome to NameBrothers.com "+"TEXT: Help for more info") ;
-    }}
+    }
     
 
 	//done
