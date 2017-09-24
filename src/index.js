@@ -334,9 +334,9 @@ app.post('/listen', function (req, res) {
 		message=(m99);
     } else if(payload ==String(a100)){
 		message=(m100);
-    } else {
-		message=(m1);
-		}
+    } else{
+	message=String(m1);
+    }
     
 
 	//done
