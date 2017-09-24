@@ -59,13 +59,13 @@ app.post('/listen', function (req, res) {
 // PRIMARY ELSE IF messasge
 
     var m1 = "Welcome, to NameBrothers: \"Best 2018 Webhosting\"";
-    var a1 = "Hey";
+    var a1 = "hey";
 
 	//-----------------------
 
 //HOSTING
     var m2 = "this is a helpful message";
-    var a2 ="HELP";
+    var a2 ="help";
 
         var m3= "";
         var a3="";
@@ -133,7 +133,7 @@ app.post('/listen', function (req, res) {
 	// response
 
     var payload= req.body['payload'];
-    var payload= payload.toLowerCase();
+    	return payload.toLowerCase();
     
     if(payload ==String(a1)){
         message=(m1);
