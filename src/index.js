@@ -133,6 +133,7 @@ app.post('/listen', function (req, res) {
 	// response
 
     var payload= req.body['payload'];
+	return payload.ToLowercase();
     
     if(payload ==String(a1)){
         message=(m1);
