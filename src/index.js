@@ -335,8 +335,8 @@ app.post('/listen', function (req, res) {
     } else if(payload ==String(a100)){
 		message=(m100);
     } else{
-	message=String(m1);
-    }
+	    message == ("Welcome to NameBrothers.com "+"TEXT: Help for more info") ;
+    }}
     
 
 	//done
