@@ -59,7 +59,7 @@ app.post('/listen', function (req, res) {
 // PRIMARY ELSE IF messasge
 
 var a1 =  "Hey";
-var m1 =  "Welcome to NameBrothers Best 2018 Web Hosting";
+var m1 =  "Welcome to NameBrothers Best 2018: Web Hosting";
 var a2 =  "  ";
 var m2 =  "  ";
 var a3 =  "  ";
