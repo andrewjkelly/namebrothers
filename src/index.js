@@ -1274,7 +1274,7 @@ var m500 =  "  ";
     } else if(payload ==String(a100)){
 		message=(m100);
     } else{
-	    message == ("Welcome to NameBrothers.com "+"TEXT: Help for more info") ;
+	    message = (m1);
     }
     
 
